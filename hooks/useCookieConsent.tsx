@@ -13,7 +13,7 @@ export function useCookieConsent() {
 
   useEffect(() => {
     // If there's no 'cookie-consent' cookie, show the banner
-    if (!cookies["cookie-consent"]) {
+    if (cookies["cookie-consent"] === undefined) {
       setVisible(true);
     }
   }, [cookies]);
