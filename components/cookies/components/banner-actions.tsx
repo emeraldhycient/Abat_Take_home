@@ -1,4 +1,3 @@
-// BannerActions.tsx
 import React from "react";
 
 type BannerActionsProps = {

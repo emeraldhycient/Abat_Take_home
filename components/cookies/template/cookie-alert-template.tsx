@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import { BannerContainer } from "../components/banner-container";
